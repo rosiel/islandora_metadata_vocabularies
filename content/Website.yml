@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: af14dc7a-b193-45b4-8ede-f93efaa8a672
+  bundle: resource_types
+  default_langcode: en
+  depends:
+    6d477593-38b0-464f-b77f-0cb3fab0f677: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Website
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 6d477593-38b0-464f-b77f-0cb3fab0f677
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/web'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/web'
+      options: {  }
+      source: resourceTypes

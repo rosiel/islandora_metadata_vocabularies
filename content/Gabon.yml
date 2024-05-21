@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 29383187-d337-4c09-abfb-fa69f7c2fa6a
+  bundle: country
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Gabon
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/countries/go'
+      title: 'http://id.loc.gov/vocabulary/countries/go'
+      options: {  }
+      source: MarcCountry
+  field_code:
+    -
+      value: go

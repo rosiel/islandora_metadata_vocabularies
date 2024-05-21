@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8e583268-9e75-4567-abf0-eb7929c14f4f
+  bundle: language
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Susu
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/iso639-2/sus'
+      title: 'http://id.loc.gov/vocabulary/iso639-2/sus'
+      options: {  }
+      source: iso639-2
+  field_code:
+    -
+      value: sus

@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: afa660d8-ee1e-4bc0-8939-1f9fd653e76f
+  bundle: country
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'China (Republic : 1949- )'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/countries/ch'
+      title: 'http://id.loc.gov/vocabulary/countries/ch'
+      options: {  }
+      source: MarcCountry
+  field_code:
+    -
+      value: ch

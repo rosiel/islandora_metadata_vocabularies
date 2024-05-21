@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1a601b2d-8aee-400e-ba8b-1a50d34f9739
+  bundle: country
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Alaska
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/countries/aku'
+      title: 'http://id.loc.gov/vocabulary/countries/aku'
+      options: {  }
+      source: MarcCountry
+  field_code:
+    -
+      value: aku

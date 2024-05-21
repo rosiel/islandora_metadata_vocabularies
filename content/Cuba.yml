@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a8ed9452-2b3e-4205-89bc-6efb0069c6f3
+  bundle: country
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Cuba
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/countries/cu'
+      title: 'http://id.loc.gov/vocabulary/countries/cu'
+      options: {  }
+      source: MarcCountry
+  field_code:
+    -
+      value: cu

@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 82912c76-8a8c-4597-b870-5a436f837b51
+  bundle: language
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Galician
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/iso639-2/glg'
+      title: 'http://id.loc.gov/vocabulary/iso639-2/glg'
+      options: {  }
+      source: iso639-2
+  field_code:
+    -
+      value: glg

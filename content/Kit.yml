@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: dd4f5bf0-5b5a-4565-b79b-735acc6789d8
+  bundle: resource_types
+  default_langcode: en
+  depends:
+    6bc0e01d-dc1d-40b2-9e7b-6c98f4516601: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Kit
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 6bc0e01d-dc1d-40b2-9e7b-6c98f4516601
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/kit'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/kit'
+      options: {  }
+      source: resourceTypes

@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 0fd7a5ba-30e3-4a3a-b475-86a18a5e383a
+  bundle: country
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Qatar
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/countries/qa'
+      title: 'http://id.loc.gov/vocabulary/countries/qa'
+      options: {  }
+      source: MarcCountry
+  field_code:
+    -
+      value: qa

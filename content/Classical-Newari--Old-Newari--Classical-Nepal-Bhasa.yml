@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5d19a899-bacf-45d0-83e1-5ac59fc7f49c
+  bundle: language
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Classical Newari | Old Newari | Classical Nepal Bhasa'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/iso639-2/nwc'
+      title: 'http://id.loc.gov/vocabulary/iso639-2/nwc'
+      options: {  }
+      source: iso639-2
+  field_code:
+    -
+      value: nwc

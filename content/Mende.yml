@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b53b8d44-1589-4dbf-8876-fc0fd5fc9f25
+  bundle: language
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Mende
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/iso639-2/men'
+      title: 'http://id.loc.gov/vocabulary/iso639-2/men'
+      options: {  }
+      source: iso639-2
+  field_code:
+    -
+      value: men

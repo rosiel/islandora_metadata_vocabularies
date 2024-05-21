@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 31b1c001-e3fc-4d22-afb8-4ea3a09a8abf
+  bundle: resource_types
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Moving Image'
+  description:
+    -
+      value: 'Images intended to be perceived as moving, including motion pictures and video recordings.'
+      format: plain_text
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/mov'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/mov'
+      options: {  }
+      source: resourceTypes

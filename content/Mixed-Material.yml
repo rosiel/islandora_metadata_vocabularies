@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6bc0e01d-dc1d-40b2-9e7b-6c98f4516601
+  bundle: resource_types
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Mixed Material'
+  description:
+    -
+      value: 'Resource comprised of multiple types which is not driven by software; for instance, a manuscript collection of text, photographs and sound recordings.'
+      format: plain_text
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/mix'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/mix'
+      options: {  }
+      source: resourceTypes

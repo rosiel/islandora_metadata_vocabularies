@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d8d91d46-d7a4-4019-aba7-4a0cb9f5f314
+  bundle: resource_types
+  default_langcode: en
+  depends:
+    56ae4114-2796-4b4c-96a1-8667ce1fbcad: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Remote sensing image'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 56ae4114-2796-4b4c-96a1-8667ce1fbcad
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/rsi'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/rsi'
+      options: {  }
+      source: resourceTypes

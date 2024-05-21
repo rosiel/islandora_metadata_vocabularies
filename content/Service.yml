@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bbc259cf-1e37-4bf7-b837-be30b6ae5322
+  bundle: resource_types_dcmi
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Service
+  description:
+    -
+      value: |-
+        A system that provides one or more functions.
+        Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server.
+      format: plain_text
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://purl.org/dc/dcmitype/Service'
+      title: 'http://purl.org/dc/dcmitype/Service'
+      options: {  }
+      source: dcmi_types
+  field_code:
+    -
+      value: Service

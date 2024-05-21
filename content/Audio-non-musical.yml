@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 31ed7d77-bc26-4b0e-bf7f-07edb48c2172
+  bundle: resource_types
+  default_langcode: en
+  depends:
+    ffe114f9-05b1-4af0-a49c-5b0cbdcc380b: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Audio non-musical'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: ffe114f9-05b1-4af0-a49c-5b0cbdcc380b
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/aun'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/aun'
+      options: {  }
+      source: resourceTypes

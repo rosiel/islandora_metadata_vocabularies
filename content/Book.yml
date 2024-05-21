@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 86d5106b-d240-476f-935d-719407d2933b
+  bundle: resource_types
+  default_langcode: en
+  depends:
+    c5f3fda1-94ba-42ac-8228-18b8564b1baf: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Book
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: c5f3fda1-94ba-42ac-8228-18b8564b1baf
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1714667534
+  field_authority_link:
+    -
+      uri: 'http://id.loc.gov/vocabulary/resourceTypes/bke'
+      title: 'http://id.loc.gov/vocabulary/resourceTypes/bke'
+      options: {  }
+      source: resourceTypes
