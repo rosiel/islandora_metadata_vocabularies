@@ -6,6 +6,26 @@ install:
 config:
   import:
     controlled_access_terms_defaults:
+      - core.entity_form_display.taxonomy_term.corporate_body.default
+      - core.entity_form_display.taxonomy_term.family.default
+      - core.entity_form_display.taxonomy_term.genre.default
+      - core.entity_form_display.taxonomy_term.geo_location.default
+      - core.entity_form_display.taxonomy_term.language.default
+      - core.entity_form_display.taxonomy_term.person.default
+      - core.entity_form_display.taxonomy_term.physical_form.default
+      - core.entity_form_display.taxonomy_term.resource_types.default
+      - core.entity_form_display.taxonomy_term.subject.default
+      - core.entity_form_display.taxonomy_term.temporal_subjects.default
+      - core.entity_view_display.taxonomy_term.corporate_body.default
+      - core.entity_view_display.taxonomy_term.family.default
+      - core.entity_view_display.taxonomy_term.genre.default
+      - core.entity_view_display.taxonomy_term.geo_location.default
+      - core.entity_view_display.taxonomy_term.language.default
+      - core.entity_view_display.taxonomy_term.person.default
+      - core.entity_view_display.taxonomy_term.physical_form.default
+      - core.entity_view_display.taxonomy_term.resource_types.default
+      - core.entity_view_display.taxonomy_term.subject.default
+      - core.entity_view_display.taxonomy_term.temporal_subjects.default
       - field.field.taxonomy_term.corporate_body.field_authority_link
       - field.field.taxonomy_term.corporate_body.field_cat_date_begin
       - field.field.taxonomy_term.corporate_body.field_cat_date_end
